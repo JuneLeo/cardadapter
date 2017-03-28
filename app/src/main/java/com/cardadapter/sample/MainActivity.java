@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         mRvCard.setLayoutManager(new LinearLayoutManager(this));
         adapter = new CardAdapter();
+        adapter.registProvider(HumorCard.class, HumorProvider.class);
         adapter.setOnItemClick(new CardAdapter.OnItemClick() {
             @Override
             public void OnClick(BaseCard baseCard, int position) {
@@ -57,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             card.add(user);
         }
 
-        adapter.addAll(card,true);
+        adapter.addAll(card, true);
         adapter.notifyDataSetChanged();
     }
 }

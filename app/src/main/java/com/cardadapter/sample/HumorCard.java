@@ -7,7 +7,7 @@ import com.cardlibrary.base.BaseCard;
  * Created by bighero on 2017/3/28.
  * E-mail:573471902@qq.com
  */
-@CardMap(HumorProvider.class)
+//@CardMap(HumorProvider.class)
 public class HumorCard extends BaseCard {
     public String name;
     public HumorCard() {
