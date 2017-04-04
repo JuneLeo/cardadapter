@@ -1,5 +1,12 @@
 apply plugin: 'com.android.library'
 
+ext {
+    PUBLISH_GROUP_ID = 'cn.bighero.android'
+    PUBLISH_ARTIFACT_ID = 'cardadapter'
+    PUBLISH_VERSION = '1.0'
+}
+
+
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.1"
@@ -22,6 +29,6 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:25.0.1'
-    compile 'com.android.support:recyclerview-v7:25.0.1'
     compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.android.support:recyclerview-v7:25.0.1'
 }

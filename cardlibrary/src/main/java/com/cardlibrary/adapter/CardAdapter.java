@@ -3,11 +3,9 @@ package com.cardlibrary.adapter;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
-
 import com.cardlibrary.base.BaseCard;
 import com.cardlibrary.base.ItemViewProvider;
 import com.cardlibrary.provider.CardMapProvider;
-
 import java.lang.reflect.Constructor;
 import java.util.ArrayList;
 import java.util.Collections;

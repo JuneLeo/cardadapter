@@ -1,7 +1,6 @@
 package com.cardlibrary.provider;
 
 import com.cardlibrary.annotation.CardMap;
-
 import java.util.HashMap;
 
 /**

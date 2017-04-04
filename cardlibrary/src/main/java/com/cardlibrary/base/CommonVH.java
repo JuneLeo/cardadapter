@@ -2,7 +2,6 @@ package com.cardlibrary.base;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
-
 import butterknife.ButterKnife;
 
 /**
